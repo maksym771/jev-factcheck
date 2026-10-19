@@ -80,6 +80,3 @@ A real end-to-end smoke test was also validated through OpenRouter with `typesaf
 
 Jev is **not an oracle of absolute truth**. It evaluates the relationship between one claim and one source excerpt. Result quality still depends on source quality, claim formulation, and excerpt selection. Low-confidence results should be escalated for manual review.
 
-## Licensing
-
-No new license is added by this repository.
