@@ -82,4 +82,4 @@ Jev is **not an oracle of absolute truth**. It evaluates the relationship betwee
 
 ## Licensing
 
-No new license is added by this repository. Before redistribution or commercial use, verify the license or permission terms of the upstream material this adaptation was derived from.
+No new license is added by this repository.
