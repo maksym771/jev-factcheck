@@ -1,7 +1,5 @@
 # jev-factcheck
 
-[Українська версія README](README.uk.md)
-
 Source-grounded fact-checking skill for AI agents using **Jev**. The agent checks whether a **specific source excerpt supports a specific claim**, while preserving provenance down to the source file and line ranges.
 
 ```text
@@ -20,41 +18,11 @@ LLMs can answer from memory or general knowledge, but that is not the same as ch
 
 That makes it useful for research agents, technical documentation checks, article review, quote verification, and pre-publication fact-checking.
 
-## Language editions
+## Installation
 
-This repository contains two ready-to-use editions built on the same logic:
+Copy the contents of `en/` into your agent's skill directory as `jev-factcheck`.
 
-```text
-jev-factcheck/
-├── README.md
-├── README.uk.md
-├── .gitignore
-├── en/
-│   ├── README.md
-│   ├── SKILL.md
-│   ├── ADAPTATION-NOTES.md
-│   ├── scripts/
-│   │   ├── check_claims.py
-│   │   ├── fetch_page.py
-│   │   └── excerpt.py
-│   └── tests/
-│       └── test_jev_factcheck.py
-└── uk/
-    ├── README.md
-    ├── SKILL.md
-    ├── ADAPTATION-NOTES.md
-    ├── scripts/
-    │   ├── check_claims.py
-    │   ├── fetch_page.py
-    │   └── excerpt.py
-    └── tests/
-        └── test_jev_factcheck.py
-```
-
-- `en/` — English edition
-- `uk/` — Ukrainian edition
-
-Copy the contents of the edition you want into your agent's skill directory as `jev-factcheck`.
+The English edition includes `SKILL.md`, `ADAPTATION-NOTES.md`, supporting scripts, and tests.
 
 ## How it works
 
@@ -85,7 +53,7 @@ typesafe/jev-1.13
 
 ## Safety and provenance
 
-The public editions include:
+The English edition includes:
 
 - provenance through `source_file + lines`;
 - no direct free-form `section` injection;
@@ -100,7 +68,7 @@ The public editions include:
 
 Reference build: **2026-10-14**
 
-Both language editions pass the offline suite:
+The English edition passes the offline suite:
 
 ```text
 10/10 tests PASS
